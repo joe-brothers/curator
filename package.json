@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "check:eslint": "eslint --ext .js,.jsx,.ts,.tsx src/",
     "check:prettier": "prettier --check src/",
     "format:prettier": "prettier --write src/",
