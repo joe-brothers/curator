@@ -4,19 +4,36 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "check:eslint": "eslint --ext .js,.jsx,.ts,.tsx src/",
+    "check:prettier": "prettier --check src/",
+    "format:prettier": "prettier --write src/",
+    "postinstall": "husky install"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=8"
   },
   "dependencies": {
+    "@picocss/pico": "^1.5.10",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
     "@types/node": "20.2.5",
     "@types/react": "18.2.8",
     "@types/react-dom": "18.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
     "eslint": "8.41.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "13.4.4",
-    "next": "13.4.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.0",
+    "prettier": "^2.8.8",
     "typescript": "5.1.3"
   }
 }
