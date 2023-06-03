@@ -12,11 +12,21 @@
 
 ## Dev
 ```bash
+npm i -g pnpm
+```
+1. install pnpm
+
+```bash
+pnpm install
+```
+2. install dependencies (also install husky)
+
+```bash
 pnpm dev
 ```
-1. run dev server
+3. run dev server
 
-2. Open [http://localhost:3000](http://localhost:3000)
+4. Open [http://localhost:3000](http://localhost:3000)
 
 ## Deploy
 
