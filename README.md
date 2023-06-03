@@ -9,6 +9,7 @@
 - husky
 - eslint
 - prettier
+- picocss
 
 ## Dev
 ```bash
