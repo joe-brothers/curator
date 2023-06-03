@@ -6,6 +6,9 @@
 ## Environment
 - pnpm
 - next.js
+- husky
+- eslint
+- prettier
 
 ## Dev
 ```bash
