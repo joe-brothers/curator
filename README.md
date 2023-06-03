@@ -10,6 +10,9 @@
 ```bash
 pnpm dev
 ```
+1. run dev server
+
+2. Open [http://localhost:3000](http://localhost:3000)
 
 ## Deploy
 
