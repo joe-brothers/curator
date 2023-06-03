@@ -1,6 +1,7 @@
 # Curator
 
 [![Deploy Next.js site to Pages](https://github.com/joe-brothers/curator/actions/workflows/deploy.yml/badge.svg?event=push)](https://github.com/joe-brothers/curator/actions/workflows/deploy.yml)
+[![lint](https://github.com/joe-brothers/curator/actions/workflows/lint.yml/badge.svg?event=push)](https://github.com/joe-brothers/curator/actions/workflows/lint.yml)
 
 ## Environment
 - pnpm
