@@ -13,22 +13,34 @@
 - netlify (for PR preview)
 
 ## Dev
-```bash
-npm i -g pnpm
+
+> **Note**
+>
+> on Mac
+
+```sh
+nvm install
+nvm use
 ```
-1. install pnpm
+1. install node (ex. with [nvm](https://github.com/nvm-sh/nvm)(Node Version Manager))
+
+```sh
+corepack enable
+corepack prepare --activate
+```
+2. Install pnpm (ex. with [Corepack](https://nodejs.org/api/corepack.html))
 
 ```bash
 pnpm install
 ```
-2. install dependencies (also install husky)
+3. install dependencies (also install husky)
 
 ```bash
 pnpm dev
 ```
-3. run dev server
+4. run dev server
 
-4. Open [http://localhost:3000](http://localhost:3000)
+5. Open [http://localhost:3000](http://localhost:3000)
 
 ## Deploy
 
