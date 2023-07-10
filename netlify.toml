@@ -4,3 +4,7 @@
 
 [build.environment]
     NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+# Skip prod build on netlify
+[context.production]
+    ignore = "exit 0"
