@@ -71,9 +71,6 @@ jobs:
       - name: Build with Next.js
         run: pnpm next build
 
-      - name: Static HTML export with Next.js
-        run: pnpm next export
-
       - name: Add .nojekyll
         run: touch ./out/.nojekyll
 
