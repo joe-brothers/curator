@@ -1,0 +1,3 @@
+[build]
+    command = "pnpm next build"
+    publish = "out"
