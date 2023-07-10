@@ -1,4 +1,5 @@
 import '@picocss/pico/css/pico.min.css';
+import './style.css';
 
 export const metadata = {
   title: 'Create Next App',
