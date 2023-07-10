@@ -10,6 +10,7 @@
 - eslint
 - prettier
 - picocss
+- netlify (for PR preview)
 
 ## Dev
 ```bash
